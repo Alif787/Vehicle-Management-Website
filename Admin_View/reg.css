@@ -1,0 +1,80 @@
+body{
+    background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(234, 213, 222);
+}
+.first
+{
+    background: #2b464e;  /* fallback for old browsers */
+    border-radius: 10px;
+}
+
+.fname
+{
+    border-radius: 10px;
+    padding: 8px;
+    outline: none;
+    border : 1px solid #2b464e;
+    color: #2b464e;
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+    background: #f2f2f2;
+
+}
+
+.sec
+{
+    border-radius: 10px;
+    padding: 8px;
+    outline: none;
+    border : 1px solid #2b464e;
+    color: #7ac4da;
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+    background: #dd4040;
+}
+.submit
+{
+    border-radius: 10px;
+    padding: 8px;
+    outline: none;
+    border : 1px solid #2b464e;
+    color: #2b464e;
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+    background: #c2df4f;
+    font-weight: bolder;
+    transition: 0.25s;
+}
+.reset
+{
+    border-radius: 10px;
+    padding: 8px;
+    outline: none;
+    border : 1px solid #2b464e;
+    color: #d2d5d6;
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+    background: #737c52;
+    font-weight: bold;
+    transition:0.25s
+}
+.submit:hover
+{
+    background: #2b464e;
+    color: #f2f2f2;
+}
+.reset:hover
+{
+    background: #2b464e;
+    color: #f2f2f2;
+}
